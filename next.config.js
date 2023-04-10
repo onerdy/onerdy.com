@@ -1,3 +1,5 @@
-module.exports ={
-    output:"standalone",
+module.exports = {
+    images: {
+        unoptimized: true
+    }
 }
