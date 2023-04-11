@@ -1,5 +1,6 @@
-// module.exports = {
-//     images: {
-//         unoptimized: true
-//     }
-// }
+module.exports = {
+    images: {
+        unoptimized: false,
+        domains: ['source.unsplash.com'],
+    }
+}
