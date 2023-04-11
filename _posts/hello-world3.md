@@ -5,7 +5,7 @@ coverImage: 'https://source.unsplash.com/RwHv7LgeC7s/640x360'
 date: '2023-04-10T10:41:00.000Z'
 author:
   name: Rodney Mort
-  picture: '/assets/blog/authors/rodney.jpg'
+  picture: '/assets/blog/authors/rodney.png'
 ogImage:
   url: 'https://source.unsplash.com/RwHv7LgeC7s/640x360'
 ---
