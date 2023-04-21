@@ -3,12 +3,9 @@ module.exports = {
   content: ['./components/**/*.tsx', './pages/**/*.tsx'],
   theme: {
     extend: {
-      colors: {
-        'accent-1': '#FAFAFA',
-        'accent-2': '#EAEAEA',
-        'accent-7': '#333',
-        success: '#0070f3',
-        cyan: '#79FFE1',
+        colors: {
+        'accent1': '#a64800',
+        'accent2': '#0c4a6e',
       },
       spacing: {
         28: '7rem',
