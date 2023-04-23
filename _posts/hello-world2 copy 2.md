@@ -5,7 +5,7 @@ coverImage: '/assets/blog/hello-world/cover.png'
 date: '2023-04-09T10:41:00.000Z'
 author:
   name: Rodney Mort
-  picture: '/assets/blog/authors/rodney.png'
+  picture: '/assets/blog/authors/rodney.webp'
 ogImage:
   url: '/assets/blog/hello-world/cover.png'
 ---
