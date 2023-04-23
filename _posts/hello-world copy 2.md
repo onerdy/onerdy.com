@@ -1,7 +1,7 @@
 ---
-title: 'Hello World!!!!'
+title: 'Hello World!'
 excerpt: 'This is an excerpt from the blog post.'
-coverImage: 'https://source.unsplash.com/EH99tDlejzo/1920x1080'
+coverImage: 'https://source.unsplash.com/EH99tDlejzo/640x360'
 date: '2023-04-08T10:41:00.000Z'
 author:
   name: Rodney Mort
