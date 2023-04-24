@@ -4,26 +4,26 @@ import MobileNav from './mobile-nav'
 
 const Header = () => {
   return (
-      <div className="h-20 bg-gradient-to-b from-slate-700 to-slate-500 flex sm:flex-col justify-between items-center p-1 text-white text-xl">
+      <div className="fixed h-20 w-full bg-gradient-to-b from-slate-100 to-slate-500 flex sm:flex-col justify-between items-center p-2 text-white text-xl">
           
           {/* Logo and title */}
-          <div className=" flex items-center ml-2">
+          <div className="flex items-center">
           <Link href="/">
               <Image
-                src="/assets/logo/logo1.png"
+                src="/assets/logo/logo.png"
                 className="mr-4 hover:animate-wiggle"
                 alt="Logo"
-                width={100}
+                width={50}
                 height={50}
               />
             </Link>
-            <Link href="/" className="text-4xl">
+            <Link href="/" className="text-secondary font-bold text-4xl">
               onerdy.com
             </Link>         
           </div>
 
           {/* Full Nav Menu */}
-          <div className="sm:mt-3 w-[360px] bg-primary rounded-3xl h-8 px-2 items-center justify-between hidden sm:flex ">
+          <div className="sm:mt-2 w-[360px] bg-primary rounded-3xl h-8 px-2 items-center justify-between hidden sm:flex ">
             <div className="flex items-center">
               <Link href="/" className="px-2 hover:underline hover:decoration-secondary">
                 home

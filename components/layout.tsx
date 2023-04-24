@@ -15,7 +15,7 @@ const Layout = ({ preview, children }: Props) => {
       <div className="min-h-screen bg-slate-500 font-comfortaa">
         {/* <Alert preview={preview} /> */}
         <Header/>
-        <main><div className="p-10">{children}</div></main>
+        <main className="pt-20"><div className="pt-5" >{children}</div></main>
       </div>
       <Footer />
     </>
