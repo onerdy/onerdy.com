@@ -1,33 +1,108 @@
-<?xml version="1.0" standalone="no"?>
-<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 20010904//EN"
- "http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd">
-<svg version="1.0" xmlns="http://www.w3.org/2000/svg"
- width="1024.000000pt" height="1024.000000pt" viewBox="0 0 1024.000000 1024.000000"
- preserveAspectRatio="xMidYMid meet">
-<metadata>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   version="1.0"
+   width="1024.000000pt"
+   height="1024.000000pt"
+   viewBox="0 0 1024.000000 1024.000000"
+   preserveAspectRatio="xMidYMid meet"
+   id="svg18"
+   sodipodi:docname="safari-pinned-tab.svg"
+   inkscape:version="0.92.4 (5da689c313, 2019-01-14)">
+  <defs
+     id="defs22" />
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1920"
+     inkscape:window-height="1017"
+     id="namedview20"
+     showgrid="false"
+     inkscape:pagecheckerboard="true"
+     inkscape:zoom="0.48889805"
+     inkscape:cx="780.0087"
+     inkscape:cy="501.84722"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg18" />
+  <metadata
+     id="metadata2">
 Created by potrace 1.11, written by Peter Selinger 2001-2013
+<rdf:RDF>
+  <cc:Work
+     rdf:about="">
+    <dc:format>image/svg+xml</dc:format>
+    <dc:type
+       rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+    <dc:title></dc:title>
+  </cc:Work>
+</rdf:RDF>
 </metadata>
-<g transform="translate(0.000000,1024.000000) scale(0.100000,-0.100000)"
-fill="#000000" stroke="none">
-<path d="M4785 10234 c-22 -2 -92 -9 -155 -14 -1453 -131 -2814 -915 -3676
--2120 -480 -670 -787 -1430 -903 -2235 -41 -281 -46 -364 -46 -745 0 -381 5
--464 46 -745 278 -1921 1645 -3535 3499 -4133 332 -107 682 -180 1080 -224
-155 -17 825 -17 980 0 687 76 1269 246 1843 539 88 45 105 57 93 67 -8 6 -383
-509 -833 1117 l-818 1105 -1025 1517 c-564 834 -1028 1516 -1032 1516 -4 1 -8
--673 -10 -1496 -3 -1441 -4 -1499 -22 -1533 -26 -49 -46 -69 -88 -91 -32 -16
--60 -19 -211 -19 l-173 0 -46 29 c-30 19 -52 44 -67 73 l-21 45 2 2005 3 2006
-31 39 c16 21 50 48 74 61 41 20 57 22 230 22 204 0 238 -8 291 -66 15 -16 570
--852 1234 -1859 664 -1007 1572 -2382 2018 -3057 l810 -1227 41 27 c363 236
-747 572 1051 922 647 743 1064 1649 1204 2615 41 281 46 364 46 745 0 381 -5
-464 -46 745 -278 1921 -1645 3535 -3499 4133 -327 106 -675 179 -1065 223 -96
-10 -757 21 -840 13z m2094 -3094 c48 -24 87 -70 101 -118 8 -26 10 -582 8
--1835 l-3 -1798 -317 486 -318 486 0 1307 c0 845 4 1320 10 1343 16 56 51 100
-99 126 41 21 56 23 213 23 148 0 174 -2 207 -20z"/>
-<path d="M7843 789 c-35 -22 -46 -37 -15 -20 22 13 58 40 52 41 -3 0 -20 -10
--37 -21z"/>
-<path d="M7774 744 c-18 -14 -18 -15 4 -4 12 6 22 13 22 15 0 8 -5 6 -26 -11z"/>
-<path d="M7724 714 c-18 -14 -18 -15 4 -4 12 6 22 13 22 15 0 8 -5 6 -26 -11z"/>
-<path d="M7674 684 c-18 -14 -18 -15 4 -4 12 6 22 13 22 15 0 8 -5 6 -26 -11z"/>
-<path d="M7598 644 c-38 -20 -36 -28 2 -9 17 9 30 18 30 20 0 7 -1 6 -32 -11z"/>
-</g>
+  <g
+     transform="matrix(15.394443,0,0,15.825248,-6724.5749,-3406.3506)"
+     id="g2271">
+    <ellipse
+       inkscape:export-filename="C:\repos\onerdy.com\public\favicon\mstile-150x150.png"
+       ry="23.661453"
+       rx="28.534107"
+       inkscape:export-ydpi="59.389999"
+       inkscape:export-xdpi="59.389999"
+       cy="242.75082"
+       cx="469.96674"
+       id="path1014-2-8-7-8-8"
+       style="fill:none;fill-opacity:1;stroke:#0369a1;stroke-width:7.0849638;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:fill markers stroke" />
+    <path
+       inkscape:export-filename="C:\repos\onerdy.com\public\favicon\mstile-150x150.png"
+       inkscape:export-ydpi="59.389999"
+       inkscape:export-xdpi="59.389999"
+       id="path4821-1-1-0-3-8-14-8"
+       d="m 441.45053,269.42961 a 28.516622,23.646943 0 0 1 28.5166,-23.64695 28.516622,23.646943 0 0 1 28.51662,23.64695"
+       style="fill:none;fill-opacity:1;stroke:#854d0e;stroke-width:6.66807461;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:markers stroke fill"
+       inkscape:connector-curvature="0" />
+    <path
+       inkscape:export-filename="C:\repos\onerdy.com\public\favicon\mstile-150x150.png"
+       inkscape:export-ydpi="59.389999"
+       inkscape:export-xdpi="59.389999"
+       inkscape:connector-curvature="0"
+       id="path4865-6-5-85-1-4-6"
+       d="m 495.17772,269.11179 v 10.55843 h 6.61458 v -10.55843 z"
+       style="color:#000000;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:medium;line-height:normal;font-family:sans-serif;font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-feature-settings:normal;text-indent:0;text-align:start;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:normal;word-spacing:normal;text-transform:none;writing-mode:lr-tb;direction:ltr;text-orientation:mixed;dominant-baseline:auto;baseline-shift:baseline;text-anchor:start;white-space:normal;shape-padding:0;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;vector-effect:none;fill:#854d0e;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:4.91747284;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate" />
+    <path
+       inkscape:export-filename="C:\repos\onerdy.com\public\favicon\mstile-150x150.png"
+       inkscape:export-ydpi="59.389999"
+       inkscape:export-xdpi="59.389999"
+       inkscape:connector-curvature="0"
+       id="path4865-2-3-4-6-4-8-3"
+       d="m 438.14228,269.11179 v 10.55842 h 6.61458 v -10.55842 z"
+       style="color:#000000;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:medium;line-height:normal;font-family:sans-serif;font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-feature-settings:normal;text-indent:0;text-align:start;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:normal;word-spacing:normal;text-transform:none;writing-mode:lr-tb;direction:ltr;text-orientation:mixed;dominant-baseline:auto;baseline-shift:baseline;text-anchor:start;white-space:normal;shape-padding:0;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;vector-effect:none;fill:#854d0e;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:4.91838312;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate" />
+    <path
+       inkscape:export-filename="C:\repos\onerdy.com\public\favicon\mstile-150x150.png"
+       inkscape:export-ydpi="59.389999"
+       inkscape:export-xdpi="59.389999"
+       inkscape:connector-curvature="0"
+       id="path3103-6-1-9-4-2-7-13-3-6-7-2-1-9-2"
+       d="m 461.45265,228.05731 -0.008,11.82641"
+       style="fill:#808080;stroke:#0369a1;stroke-width:5.90413618;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+    <path
+       inkscape:export-filename="C:\repos\onerdy.com\public\favicon\mstile-150x150.png"
+       inkscape:export-ydpi="59.389999"
+       inkscape:export-xdpi="59.389999"
+       inkscape:connector-curvature="0"
+       id="path3103-6-1-9-4-2-7-13-3-6-7-3-2-1-3-0"
+       d="m 478.48874,228.05731 -0.008,11.82641"
+       style="fill:#808080;stroke:#0369a1;stroke-width:5.90413618;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+  </g>
 </svg>

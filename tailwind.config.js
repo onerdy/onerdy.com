@@ -4,13 +4,10 @@ module.exports = {
   theme: {
     extend: {
         colors: {
-        // Custom color names are not needed yet since we are using the following tailwind default colors:
-        // cyan-300 (#67e8f9)
-        // blue-950 (#172554)
-        // orange-700 (#c2410c)
-        // slate-800 (#1e293b)
-        'primary': '#1e293b',
-        'secondary': '#67e8f9',
+        // sky-700 (#0369a1ff)
+        // yellow-800 (#854d0eff)
+        'primary': '#0369a1ff',
+        'secondary': '#854d0eff',
       },
       spacing: {
         28: '7rem',
