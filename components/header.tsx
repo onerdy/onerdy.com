@@ -4,7 +4,7 @@ import MobileNav from './mobile-nav'
 
 const Header = () => {
   return (
-      <div className="fixed h-20 w-full bg-gradient-to-b from-slate-100 to-slate-500 flex sm:flex-col justify-between items-center p-2 text-white text-xl">
+      <div className="fixed h-20 w-full bg-gradient-to-b from-zinc-100 to-zinc-400 flex sm:flex-col justify-between items-center p-2 text-white text-xl">
           
           {/* Logo and title */}
           <div className="flex items-center">
