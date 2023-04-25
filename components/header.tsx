@@ -9,8 +9,8 @@ const Header = () => {
           {/* Logo and title */}
           <div className="flex items-center">
           <Link href="/">
-              <Image
-                src="/assets/logo/logo.png"
+              <img
+                src="/assets/img/logo.png"
                 className="mr-4 hover:animate-wiggle"
                 alt="Logo"
                 width={50}

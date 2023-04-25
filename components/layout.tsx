@@ -12,10 +12,10 @@ const Layout = ({ preview, children }: Props) => {
   return (
     <>
       <Meta />
-      <div className="min-h-screen bg-slate-500 font-comfortaa">
+      <div className="min-h-screen bg-slate-100 font-comfortaa">
         {/* <Alert preview={preview} /> */}
         <Header/>
-        <main className="pt-20"><div className="pt-5" >{children}</div></main>
+        <main className=""><div className="pt-24 text-slate-800" >{children}</div></main>
       </div>
       <Footer />
     </>
