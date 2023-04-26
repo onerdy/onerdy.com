@@ -12,10 +12,10 @@ const Layout = ({ preview, children }: Props) => {
   return (
     <>
       <Meta />
-      <div className="min-h-screen bg-zinc-700 font-comfortaa">
+      <div className="min-h-screen font-comfortaa bg-[url('/img/bg.svg')]  bg-fixed bg-gray-800 flex flex-col items-center">
         {/* <Alert preview={preview} /> */}
         <Header/>
-        <main className=""><div className="pt-24 text-white" >{children}</div></main>
+        <main><div className="pt-28 text-white" >{children}</div></main>
       </div>
       <Footer />
     </>
