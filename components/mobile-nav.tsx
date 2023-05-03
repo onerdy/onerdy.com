@@ -19,12 +19,12 @@ const MobileNav = () => {
 
   return (
     
-    <div className="sm:hidden flex">
+    <div className="sm:hidden flex ">
       
       {/* Hamburger menu button */}
       <button
         type="button"
-        className="h-12 w-12 rounded pb-1"
+        className="h-12 w-12 rounded pb-1 "
         aria-label="Toggle Menu"
         onClick={onToggleNav}
       >
@@ -32,7 +32,7 @@ const MobileNav = () => {
           xmlns="http://www.w3.org/2000/svg"
           viewBox="0 0 20 20"
           fill="currentColor"
-          className="text-primary hover:text-secondary"
+          className="text-primary hover:text-secondary "
         >
           <path
             fillRule="evenodd"
@@ -44,15 +44,15 @@ const MobileNav = () => {
 
       {/* Menu screen */}
       <div
-        className={`overflow-auto flex flex-col items-center fixed top-0 left-0 z-10 h-full w-full transform bg-slate-500 duration-100 ease-in-out ${
+        className={`overflow-auto flex flex-col items-center fixed top-0 left-0 z-10 h-full w-full transform bg-gradient-to-b from-black via-slate-500 via-[8px] to-slate-500 duration-100 ease-in-out ${
           navShow ? 'translate-x-0' : 'translate-x-full'
         }`}
       >
         {/* Menu close X button */}
-        <div className="w-full flex justify-end">
+        <div className="w-full flex justify-end ">
           <button
             type="button"
-            className="mr-1 mt-1 h-16 w-16 rounded"
+            className="mr-1 mt-1 h-16 w-16 rounded "
             aria-label="Toggle Menu"
             onClick={onToggleNav}
           >
@@ -72,7 +72,7 @@ const MobileNav = () => {
         </div>
 
         {/* Nav menu */}
-        <nav className="bg-primary rounded-xl mt-8 h-[500px] w-4/5 text-5xl flex flex-col flex-none items-center justify-evenly">
+        <nav className="shadow-2xl shadow-black bg-primary rounded-xl mt-8 h-[500px] w-4/5 text-5xl flex flex-col flex-none items-center justify-evenly">
  
             <Link href="/" className="py-4 hover:underline hover:decoration-secondary" onClick={onToggleNav}>
                 home

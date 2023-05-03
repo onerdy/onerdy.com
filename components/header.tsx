@@ -1,16 +1,21 @@
 import Link from 'next/link'
 import Image from 'next/image'
 import MobileNav from './mobile-nav'
+import { useRouter } from 'next/router'
+import classNames from 'classnames'
 
 const Header = () => {
+
+  const router = useRouter();
+  
   return (
-      <div className="fixed h-20 bg-white w-full flex sm:flex-col justify-between items-center p-2 text-white text-xl">
-          
+        <div className="fixed w-full h-20 p-0 m-0 bg-black bg-opacity-60 flex sm:flex-col items-center border-2 border-primary">
+          <div className="fixed h-20 p-1 w-full sm:w-[478px] bg-gradient-to-b from-black via-white via-[8px] to-white flex sm:flex-col justify-between items-center text-white text-xl">
           {/* Logo and title */}
           <div className="flex items-center">
           <Link href="/">
               <img
-                src="/img/logo.png"
+                src="/img/logo.svg"
                 className="mr-4 hover:animate-wiggle"
                 alt="Logo"
                 width={50}
@@ -23,15 +28,36 @@ const Header = () => {
           </div>
 
           {/* Full Nav Menu */}
-          <div className="w-[480px] bg-primary  h-8 px-2 items-center justify-between hidden sm:flex sm:mt-2 sm:rounded-3xl">
+          <div className="w-[480px] bg-primary h-8 px-2 items-center justify-between hidden sm:flex sm:mt-2 sm:rounded-3xl">
             <div className="flex items-center">
-              <Link href="/" className="px-2 hover:underline hover:decoration-secondary">
+              <Link href="/"
+              className={(
+                classNames(
+                  router.asPath === "/"
+                  ? "px-2 font-bold"
+                  : "px-2 hover:underline hover:decoration-secondary"
+                )
+              )}>
                 home
               </Link>
-              <Link href="/blog" className="px-2 hover:underline hover:decoration-secondary">
+              <Link href="/blog"
+              className={(
+                classNames(
+                  router.asPath === "/blog"
+                  ? "px-2 font-bold"
+                  : "px-2 hover:underline hover:decoration-secondary"
+                )
+              )}>
                 blog
               </Link>
-              <Link href="/projects" className="px-2 pr-10 hover:underline hover:decoration-secondary">
+              <Link href="/projects"
+              className={(
+                classNames(
+                  router.asPath === "/projects"
+                  ? "px-2 font-bold"
+                  : "px-2 hover:underline hover:decoration-secondary"
+                )
+              )}>
                 projects
               </Link>
             </div>
@@ -65,7 +91,7 @@ const Header = () => {
 
           {/* Mobile Nav Menu */}
           <MobileNav/>
-
+        </div>
         </div>
   )
 }

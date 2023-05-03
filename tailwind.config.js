@@ -39,8 +39,11 @@ module.exports = {
       },
       animation: {
         wiggle: 'wiggle .2s ease-in-out 3',
+      },
+      backgroundImage: {
+        'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
       }
     },
   },
-  plugins: [],
+  plugins: [require('@tailwindcss/typography')],
 }
