@@ -1,6 +1,6 @@
 ---
 title: 'Where does the name "onerdy" come from?'
-excerpt: 'This is an excerpt from the blog post.'
+excerpt: 'When I was young, I heard a story about Jim Morrison, the famous singer from The Doors...'
 coverImage: 'https://source.unsplash.com/2EJCSULRwC8/640x360'
 date: '2023-05-01T22:00:00.000Z'
 author:
