@@ -22,7 +22,7 @@ const Header = () => {
                 height={50}
               />
             </Link>
-            <Link href="/" className="text-secondary font-bold text-4xl">
+            <Link href="/" className="no-underline text-secondary font-bold text-4xl">
               onerdy.com
             </Link>         
           </div>
@@ -34,8 +34,8 @@ const Header = () => {
               className={(
                 classNames(
                   router.asPath === "/"
-                  ? "px-2 font-bold"
-                  : "px-2 hover:underline hover:decoration-secondary"
+                  ? "px-2 font-bold text-white no-underline"
+                  : "px-2 hover:underline hover:decoration-secondary text-white no-underline"
                 )
               )}>
                 home
@@ -44,8 +44,8 @@ const Header = () => {
               className={(
                 classNames(
                   router.asPath === "/blog"
-                  ? "px-2 font-bold"
-                  : "px-2 hover:underline hover:decoration-secondary"
+                  ? "px-2 font-bold text-white no-underline"
+                  : "px-2 hover:underline hover:decoration-secondary text-white no-underline"
                 )
               )}>
                 blog
@@ -54,8 +54,8 @@ const Header = () => {
               className={(
                 classNames(
                   router.asPath === "/projects"
-                  ? "px-2 font-bold"
-                  : "px-2 hover:underline hover:decoration-secondary"
+                  ? "px-2 font-bold text-white no-underline"
+                  : "px-2 hover:underline hover:decoration-secondary text-white no-underline"
                 )
               )}>
                 projects

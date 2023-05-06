@@ -4,3 +4,9 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer base {
+    a {
+      @apply text-primary;
+      @apply underline;
+    }
+  }

@@ -60,7 +60,7 @@ const MobileNav = () => {
               xmlns="http://www.w3.org/2000/svg"
               viewBox="0 0 20 20"
               fill="currentColor"
-              className="text-primary hover:text-secondary"
+              className="text-primary hover:text-white"
             >
               <path
                 fillRule="evenodd"
@@ -74,18 +74,18 @@ const MobileNav = () => {
         {/* Nav menu */}
         <nav className="shadow-2xl shadow-black bg-primary rounded-xl mt-8 h-[500px] w-4/5 text-5xl flex flex-col flex-none items-center justify-evenly">
  
-            <Link href="/" className="py-4 hover:underline hover:decoration-secondary" onClick={onToggleNav}>
+            <Link href="/" className="py-4 text-white no-underline hover:underline hover:decoration-secondary" onClick={onToggleNav}>
                 home
             </Link>
-            <Link href="/blog" className="py-4 hover:underline hover:decoration-secondary" onClick={onToggleNav}>
+            <Link href="/blog" className="py-4 text-white no-underline hover:underline hover:decoration-secondary" onClick={onToggleNav}>
                 blog
             </Link>
-            <Link href="/projects" className="py-4 hover:underline hover:decoration-secondary" onClick={onToggleNav}>
+            <Link href="/projects" className="py-4 text-white no-underline hover:underline hover:decoration-secondary" onClick={onToggleNav}>
                 projects
             </Link>
             <div className="py-4 flex items-center justify-around">
                 {/* Github Icon */}
-                <Link href="https://github.com/onerdy" className="px-6 hover:text-secondary" rel="noopener noreferrer" target="_blank">
+                <Link href="https://github.com/onerdy" className="px-6 text-white hover:text-secondary" rel="noopener noreferrer" target="_blank">
                     <svg
                     xmlns="http://www.w3.org/2000/svg"
                     className="h-10 w-10"
@@ -97,7 +97,7 @@ const MobileNav = () => {
                 </Link>
 
                 {/* LinkedIn Icon */}
-                <Link href="https://linkedin.com/in/rodneymort" className="px-6 hover:text-secondary" rel="noopener noreferrer" target="_blank">
+                <Link href="https://linkedin.com/in/rodneymort" className="px-6 text-white hover:text-secondary" rel="noopener noreferrer" target="_blank">
                 <svg
                     xmlns="http://www.w3.org/2000/svg"
                     className="h-10 w-10"
