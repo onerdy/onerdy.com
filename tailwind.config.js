@@ -4,10 +4,10 @@ module.exports = {
   theme: {
     extend: {
         colors: {
-        // sky-700 (#0369a1ff)
-        // yellow-800 (#854d0eff)
-        'primary': '#0369a1ff',
-        'secondary': '#854d0eff',
+        // gray-700 (#374151ff)
+        // green-500 (#84cc16ff)
+        'primary': '#374151ff',
+        'secondary': '#84cc16ff',
       },
       spacing: {
         28: '7rem',

@@ -16,10 +16,16 @@ export default function Index() {
                 alt="Logo"
               />
             <div className="flex pl-4 sm:text-lg">
-              <p className="">
-                Welcome to onerdy.com, the personal website for Rodney Mort!  I am a curious human, IT pro, and software development dabbler.<br/>
+              <p className="">                
+                Hello and welcome to onerdy.com!<br/>
                 <br/>
-                Where does the name "O'Nerdy" come from?  Read more <a href="/posts/where-does-the-name-onerdy-come-from">here</a>.
+                I am Rodney Mort, IT pro and software development dabbler.  Thank you for stopping by my website.<br/>
+                <br/>
+                In years past, my professional experience has included systems engineering, tech support management, and project management.  More recently, my work has focused on data analytics, Microsoft Power Platform, SharePoint 365, and ERP application support and maintenance.<br/>
+                <br/>
+                When I'm not busy being a family man, I enjoy playing guitar, chess, video games, golf, fitness, and improving my software development skills.<br/>
+                <br/>
+                Where does the name "onerdy" come from?  Read more <a href="/posts/where-does-the-name-onerdy-come-from">here</a>.
               </p>
             </div>            
           </div>

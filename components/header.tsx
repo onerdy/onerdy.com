@@ -8,34 +8,36 @@ const Header = () => {
 
   const router = useRouter();
   
+
+  //bg-gradient-to-b from-black via-white via-[8px] to-white
   return (
-        <div className="fixed w-full h-20 p-0 m-0 bg-black bg-opacity-60 flex sm:flex-col items-center border-2 border-primary">
-          <div className="fixed h-20 p-1 w-full sm:w-[478px] bg-gradient-to-b from-black via-white via-[8px] to-white flex sm:flex-col justify-between items-center text-white text-xl">
+        <div className="fixed w-full h-20 p-0 m-0 bg-black bg-opacity-60 flex sm:flex-col items-center border-b-4 border-secondary">
+          <div className="fixed h-20 p-1 w-full sm:w-[478px] flex sm:flex-col justify-between items-center text-white text-xl">
           {/* Logo and title */}
           <div className="flex items-center">
           <Link href="/">
               <img
                 src="/img/logo.svg"
-                className="mr-4 hover:animate-wiggle"
+                className="ml-2 mr-4 hover:animate-wiggle"
                 alt="Logo"
                 width={50}
                 height={50}
               />
             </Link>
-            <Link href="/" className="no-underline text-secondary font-bold text-4xl">
+            <Link href="/" className="no-underline text-white text-4xl hover:text-white">
               onerdy.com
             </Link>         
           </div>
 
           {/* Full Nav Menu */}
-          <div className="w-[480px] bg-primary h-8 px-2 items-center justify-between hidden sm:flex sm:mt-2 sm:rounded-3xl">
+          <div className="w-[480px] bg-gray-600 h-8 px-2 items-center justify-between hidden sm:flex sm:mt-2 sm:rounded-3xl">
             <div className="flex items-center">
               <Link href="/"
               className={(
                 classNames(
                   router.asPath === "/"
-                  ? "px-2 font-bold text-white no-underline"
-                  : "px-2 hover:underline hover:decoration-secondary text-white no-underline"
+                  ? "px-2 font-bold text-white no-underline hover:text-white"
+                  : "px-2 text-white no-underline hover:text-white hover:underline hover:decoration-secondary"
                 )
               )}>
                 home
@@ -44,8 +46,8 @@ const Header = () => {
               className={(
                 classNames(
                   router.asPath === "/blog"
-                  ? "px-2 font-bold text-white no-underline"
-                  : "px-2 hover:underline hover:decoration-secondary text-white no-underline"
+                  ? "px-2 font-bold text-white no-underline hover:text-white"
+                  : "px-2 text-white no-underline hover:text-white hover:underline hover:decoration-secondary"
                 )
               )}>
                 blog
@@ -54,8 +56,8 @@ const Header = () => {
               className={(
                 classNames(
                   router.asPath === "/projects"
-                  ? "px-2 font-bold text-white no-underline"
-                  : "px-2 hover:underline hover:decoration-secondary text-white no-underline"
+                  ? "px-2 font-bold text-white no-underline hover:text-white"
+                  : "px-2 text-white no-underline hover:text-white hover:underline hover:decoration-secondary"
                 )
               )}>
                 projects
@@ -64,7 +66,7 @@ const Header = () => {
 
             <div className="flex items-center">
               {/* Github Icon */}
-              <Link href="https://github.com/onerdy" className="px-2 hover:text-secondary" rel="noopener noreferrer" target="_blank">
+              <Link href="https://github.com/onerdy" className="px-2 text-white hover:text-secondary" rel="noopener noreferrer" target="_blank">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   className="h-5 w-5"
@@ -76,7 +78,7 @@ const Header = () => {
               </Link>
 
               {/* LinkedIn Icon */}
-              <Link href="https://linkedin.com/in/rodneymort" className="px-2 hover:text-secondary" rel="noopener noreferrer" target="_blank">
+              <Link href="https://linkedin.com/in/rodneymort" className="px-2 text-white hover:text-secondary" rel="noopener noreferrer" target="_blank">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 className="h-5 w-5"

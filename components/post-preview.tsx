@@ -49,7 +49,7 @@ const PostPreview = ({
       </div>
       <div className="flex justify-end">
         <Link as={`/posts/${slug}`} href="/posts/[slug]">
-          <button className="bg-primary text-white rounded-3xl px-3 py-2 h-10 w-32 hover:scale-105">Read more...</button>
+          <button className="bg-secondary text-white rounded-3xl px-3 py-2 h-10 w-32 hover:scale-105">Read more...</button>
         </Link>          
       </div>
     </div>

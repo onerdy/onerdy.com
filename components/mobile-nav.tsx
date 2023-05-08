@@ -32,7 +32,7 @@ const MobileNav = () => {
           xmlns="http://www.w3.org/2000/svg"
           viewBox="0 0 20 20"
           fill="currentColor"
-          className="text-primary hover:text-secondary "
+          className="text-secondary hover:text-primary"
         >
           <path
             fillRule="evenodd"
@@ -44,7 +44,8 @@ const MobileNav = () => {
 
       {/* Menu screen */}
       <div
-        className={`overflow-auto flex flex-col items-center fixed top-0 left-0 z-10 h-full w-full transform bg-gradient-to-b from-black via-slate-500 via-[8px] to-slate-500 duration-100 ease-in-out ${
+        className={`overflow-auto flex flex-col items-center fixed top-0 left-0 z-10 h-full w-full transform bg-gradient-to-b from-black via-slate-500 via-[8px] to-slate-500 duration-100 ease-in-out
+        ${
           navShow ? 'translate-x-0' : 'translate-x-full'
         }`}
       >
@@ -74,13 +75,13 @@ const MobileNav = () => {
         {/* Nav menu */}
         <nav className="shadow-2xl shadow-black bg-primary rounded-xl mt-8 h-[500px] w-4/5 text-5xl flex flex-col flex-none items-center justify-evenly">
  
-            <Link href="/" className="py-4 text-white no-underline hover:underline hover:decoration-secondary" onClick={onToggleNav}>
+            <Link href="/" className="py-4 text-white no-underline hover:text-white hover:underline hover:decoration-secondary" onClick={onToggleNav}>
                 home
             </Link>
-            <Link href="/blog" className="py-4 text-white no-underline hover:underline hover:decoration-secondary" onClick={onToggleNav}>
+            <Link href="/blog" className="py-4 text-white no-underline hover:text-white hover:underline hover:decoration-secondary" onClick={onToggleNav}>
                 blog
             </Link>
-            <Link href="/projects" className="py-4 text-white no-underline hover:underline hover:decoration-secondary" onClick={onToggleNav}>
+            <Link href="/projects" className="py-4 text-white no-underline hover:text-white hover:underline hover:decoration-secondary" onClick={onToggleNav}>
                 projects
             </Link>
             <div className="py-4 flex items-center justify-around">

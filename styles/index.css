@@ -6,7 +6,10 @@
 
 @layer base {
     a {
-      @apply text-primary;
+      @apply text-white;
       @apply underline;
+      @apply decoration-secondary;
+      @apply decoration-2;
+      @apply hover:text-secondary;
     }
   }
