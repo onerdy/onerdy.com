@@ -19,11 +19,11 @@ export default function Index() {
               <p className="">                
                 Hello and welcome to onerdy.com!<br/>
                 <br/>
-                I am Rodney Mort, IT pro and software development dabbler.  Thank you for stopping by my website.<br/>
+                I am Rodney Mort, IT pro and software development dabbler.  Thanks for stopping by my website.<br/>
                 <br/>
-                In years past, my professional experience has included systems engineering, tech support management, and project management.  More recently, my work has focused on data analytics, Microsoft Power Platform, SharePoint 365, and ERP application support and maintenance.<br/>
+                I look forward to sharing my experiences with software development, Microsoft Power Platform, data analytics, and more.<br/>
                 <br/>
-                When I'm not busy being a family man, I enjoy playing guitar, chess, video games, golf, fitness, and improving my software development skills.<br/>
+                When I'm not busy as a family man, I enjoy playing guitar, chess, video games, golf, and fitness.<br/>
                 <br/>
                 Where does the name "onerdy" come from?  Read more <a href="/posts/where-does-the-name-onerdy-come-from">here</a>.
               </p>
