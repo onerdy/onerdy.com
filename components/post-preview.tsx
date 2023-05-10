@@ -24,14 +24,7 @@ const PostPreview = ({
   return (
     <div className="bg-black bg-opacity-60 px-6 py-4 m-4 rounded-3xl flex flex-col">
       <div className="text-3xl mb-2">
-          {title}          
-          {/* <Link
-            as={`/posts/${slug}`}
-            href="/posts/[slug]"
-            className="hover:underline hover:decoration-primary"
-          >
-            {title}
-          </Link> */}
+          {title}
       </div>
       <div className="mb-2">
         <CoverImage slug={slug} title={title} src={coverImage}/>
