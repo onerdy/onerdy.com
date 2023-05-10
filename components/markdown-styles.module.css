@@ -16,3 +16,10 @@
 .markdown h3 {
   @apply text-2xl mt-8 mb-4 leading-snug;
 }
+ .markdown a {
+  @apply text-white;
+  @apply underline;
+  @apply decoration-secondary;
+  @apply decoration-2;
+  @apply hover:text-secondary;
+ }

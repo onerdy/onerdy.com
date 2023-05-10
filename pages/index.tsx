@@ -21,9 +21,9 @@ export default function Index() {
                 <br/>
                 I am Rodney Mort, IT pro and software development dabbler.  Thanks for stopping by my website.<br/>
                 <br/>
-                I look forward to sharing my experiences with software development, Microsoft Power Platform, data analytics, and more.<br/>
+                I look forward to sharing my experiences with software development hobby projects, Microsoft Power Platform, data analytics, and more.<br/>
                 <br/>
-                When I'm not busy as a family man, I enjoy playing guitar, chess, video games, golf, and fitness.<br/>
+                When I'm not busy as a family man or telling dad jokes, I enjoy playing guitar, chess, video games, golf, and fitness.<br/>
                 <br/>
                 Where does the name "onerdy" come from?  Read more <a href="/posts/where-does-the-name-onerdy-come-from">here</a>.
               </p>
