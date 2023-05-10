@@ -1,6 +1,6 @@
 ---
 title: 'onerdy.com (this website)'
-excerpt: 'Here are the details about this website project...'
+excerpt: 'Here are the details about onderdy.com...'
 coverImage: 'https://source.unsplash.com/xrVDYZRGdw4/640x360'
 date: '2023-05-09T22:00:00.000Z'
 author:
@@ -10,4 +10,4 @@ ogImage:
   url: 'https://source.unsplash.com/xrVDYZRGdw4/640x360'
 ---
 
-Here are the details about onerdy.com
+Here are the details about onerdy.com...
