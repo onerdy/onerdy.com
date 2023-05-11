@@ -1,4 +1,4 @@
-#onerdy.com
+# onerdy.com
 
 This is the personal website for Rodney Mort, using NextJS and Tailwind CSS.
 
