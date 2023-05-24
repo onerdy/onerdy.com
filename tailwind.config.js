@@ -6,6 +6,7 @@ module.exports = {
         colors: {
         // gray-700 (#374151ff)
         // green-500 (#84cc16ff)
+        // sky-400 (#38bdf8ff)
         'primary': '#374151ff',
         'secondary': '#84cc16ff',
       },

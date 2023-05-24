@@ -12,7 +12,7 @@ const Header = () => {
         <div className="fixed w-full h-20 p-0 m-0 bg-black bg-opacity-60 flex sm:flex-col items-center border-b-4 border-secondary">
           <div className="fixed h-20 p-1 w-full sm:w-[478px] flex sm:flex-col justify-between items-center text-white text-xl">
           {/* Logo and title */}
-          <div className="flex items-center">
+          <div className="flex items-center ">
           <Link href="/">
               <img
                 src="/img/logo.svg"
