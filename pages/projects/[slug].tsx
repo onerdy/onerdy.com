@@ -12,10 +12,9 @@ import type ProjectType from '../../interfaces/project'
 type Props = {
   project: ProjectType
   moreProjects: ProjectType[]
-  preview?: boolean
 }
 
-export default function Project({ project, moreProjects, preview }: Props) {
+export default function Project({ project, moreProjects }: Props) {
   const router = useRouter()
   const title = `${project.title}`
   if (!router.isFallback && !project?.slug) {
