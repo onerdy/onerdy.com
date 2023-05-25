@@ -6,7 +6,7 @@ type Props = {
 
 const ProjectBody = ({ content }: Props) => {
   return (
-    <div className="max-w-4xl mx-auto text-justify">
+    <div className="max-w-4xl mx-auto text-left">
       <div
         className={markdownStyles['markdown']}
         dangerouslySetInnerHTML={{ __html: content }}
