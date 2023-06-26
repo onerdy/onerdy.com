@@ -11,7 +11,7 @@ export default function Index() {
         <Container>
           <div className="flex justify-between max-w-3xl bg-black bg-opacity-60 rounded-3xl p-6 m-4">
               <img
-                src="/assets/blog/authors/rodney.webp"
+                src="/assets/authors/rodney.webp"
                 className="w-20 h-20 rounded-full"
                 alt="Logo"
               />
