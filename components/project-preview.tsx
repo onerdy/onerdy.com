@@ -22,7 +22,7 @@ const ProjectPreview = ({
   slug,
 }: Props) => {
   return (
-    <div className="bg-black bg-opacity-60 px-6 py-4 m-4 rounded-3xl flex flex-col">
+    <div className="bg-black bg-opacity-60 px-6 py-4 m-4 rounded-3xl flex flex-col justify-between">
       <div className="text-3xl mb-2">
           {title}
       </div>

@@ -1,5 +1,5 @@
 ---
-title: 'onerdy.com (this website)'
+title: 'onerdy.com'
 excerpt: 'This website is built using Nextjs and Tailwind CSS, hosted on AWS Amplify...'
 coverImage: 'https://source.unsplash.com/xrVDYZRGdw4/640x360'
 date: '2023-05-14T22:00:00.000Z'
