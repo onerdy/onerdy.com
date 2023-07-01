@@ -21,7 +21,7 @@ export default function Index() {
                 <br/>
                 I am Rodney Mort: curious human, IT pro, and software development dabbler.  Thanks for stopping by my website.<br/>
                 <br/>
-                I look forward to sharing my experiences with software development hobby projects, Microsoft Power Platform, and anything else that seems worthwhile.<br/>
+                I look forward to sharing my experiences with Microsoft Power Platform, software development hobby projects, and anything else that seems worthwhile.<br/>
                 <br/>
                 Where does the name "onerdy" come from?  Find out <a href="/posts/where-does-the-name-onerdy-come-from">here</a>.
               </p>
