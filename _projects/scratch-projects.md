@@ -1,13 +1,13 @@
 ---
 title: 'Scratch Projects'
 excerpt: 'Since I had such a positive experience learning about computer programming as a youngster...'
-coverImage: '/assets/projects/scratch-projects/scratch-logo2.png'
+coverImage: '/assets/projects/scratch-projects/scratch-logo.png'
 date: '2023-06-25T22:00:00.000Z'
 author:
   name: Rodney Mort
   picture: '/assets/authors/rodney.webp'
 ogImage:
-  url: '/assets/projects/scratch-projects/scratch-logo2.png'
+  url: '/assets/projects/scratch-projects/scratch-logo.png'
 ---
 
 Since I had such a positive experience [learning about computer programming as a youngster](/posts/the-beginning-of-my-tech-journey), I attempted to recreate a similar experience for my own kids many years later.  I found a fantastic website called [Scratch](https://scratch.mit.edu/about), created by MIT.  It uses a visual interface of coding blocks that can be dragged and dropped into place and allows users to create digital stories, games, and animations.  I bribed my kids with money to get them to try it out and they built a few projects but haven't yet done anything else with it.  As I learned about Scratch in order to teach them, I became more interested and really enjoyed building a few projects of my own over the years.  Here are some of my favorites:
