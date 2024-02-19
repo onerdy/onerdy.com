@@ -18,7 +18,7 @@ Since I had such a positive experience [learning about computer programming as a
 ![Image](https://cdn2.scratch.mit.edu/get_image/project/554777177_100x80.png)
 [Project Link](https://scratch.mit.edu/projects/554777177/fullscreen)\
 [Project Code](https://scratch.mit.edu/projects/554777177/editor)\
-My dad was historically not a fan of technology.  He did not own a smart phone, computer, or any other high-tech devices.  However, at some point, I noticed that he was starting to enjoy playing games on my mom's iPhone.  When he was diagnosed with cancer in 2021, I wanted to do something special for him, so I bought him a tablet and built this custom game just for him.  It combines two of his favorite hobbies, fishing and slot machines.  I don't think the game itself was as enjoyable as some of the other professionally-developed games that he played but I know he appreciated the gesture.  I'm really glad I got to do this before he passed away in early 2022.
+My dad was historically not a fan of technology.  He did not own a smart phone, computer, or any other high-tech devices.  However, at some point, I noticed that he was starting to enjoy playing games on my mom's iPhone.  When he was diagnosed with cancer in 2021, I wanted to do something special for him, so I bought him a tablet and built this custom game just for him.  It combines two of his favorite hobbies: fishing and slot machines.
 
 ---
 
