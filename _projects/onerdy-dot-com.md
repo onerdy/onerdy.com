@@ -12,7 +12,7 @@ ogImage:
 
 Github Repo: [https://github.com/onerdy/onerdy.com](https://github.com/onerdy/onerdy.com)
 
-This website is built using Nextjs and Tailwind CSS, hosted on AWS Amplify.  As a hobbyist developer, I researched multiple options for creating this site, I liked the idea of using Nextjs because it solves many problems and handles many functions out of the box.  The combination of Javascript, React, Nextjs seems to be very popular and has a lot of community support which I think is helpful.  I started this project based on the [Blog Starter Kit](https://vercel.com/templates/next.js/blog-starter-kit) and have been adding my own customizations.  It's been a great way to learn so far.
+This website is built using Nextjs and Tailwind CSS, hosted on AWS Amplify.  As a hobbyist developer, I researched multiple options for creating this site, I liked the idea of using Nextjs because it solves many problems and handles many functions out of the box.  The combination of Javascript, React, Nextjs seems to be very popular and has a lot of community support which I think is helpful.  I started this project based on the [Blog Starter Kit](https://vercel.com/templates/next.js/blog-starter-kit) and have been adding my own customizations.
 
 One option I've seen around the web for hosting a Nextjs site is to use Vercel.  They make everything as easy as possible and they even have a free tier.  However, with Vercel, I did not like the relatively large jump in price if going past the free tier for my personal site.  So, I decided to host on AWS Amplify.  Even though there is a small cost, I liked this approach better.  Plus, I liked the idea of getting more experience with AWS which I feel is more likely to be valuable to me in the real world.
 
