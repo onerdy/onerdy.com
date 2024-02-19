@@ -21,12 +21,8 @@ const CoverImage = ({ title, src, slug }: Props) => {
     />
   )
   return (
-    <div className="sm:mx-0">
-      {slug ? (
-          {image}
-      ) : (
-        image
-      )}
+    <div className="sm:mx-0">      
+        {image}      
     </div>
   )
 }
