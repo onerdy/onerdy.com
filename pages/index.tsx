@@ -19,9 +19,9 @@ export default function Index() {
               <p className="">                
                 Hello and welcome to onerdy.com!<br/>
                 <br/>
-                I am Rodney Mort: curious human, IT pro, and software development dabbler.  Thanks for stopping by my website.<br/>
+                I am Rodney Mort: curious human, IT pro, and software development dabbler. Thanks for stopping by my website.<br/>
                 <br/>
-                I look forward to sharing my experiences with Microsoft Power Platform, software development hobby projects, and anything else that seems worthwhile.<br/>
+                I look forward to sharing my experiences with hobby projects and anything else that seems worthwhile.<br/>
                 <br/>
                 Where does the name "onerdy" come from?  Find out <a href="/posts/where-does-the-name-onerdy-come-from">here</a>.
               </p>
