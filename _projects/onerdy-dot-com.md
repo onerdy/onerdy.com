@@ -12,7 +12,7 @@ ogImage:
 
 Github Repo: [https://github.com/onerdy/onerdy.com](https://github.com/onerdy/onerdy.com)
 
-UPDATE (7/3/2026): This website has now been migrated from AWS Amplify to Google Firebase.
+UPDATE (7/3/2026): This website has been migrated from AWS Amplify to Google Firebase.
 
 Original Post (5/14/2023):
 This website is built using Nextjs and Tailwind CSS, hosted on AWS Amplify. As a hobbyist developer, I researched multiple options for creating this site, I liked the idea of using Nextjs because it solves many problems and handles many functions out of the box. The combination of Javascript, React, Nextjs seems to be very popular and has a lot of community support which I think is helpful. I started this project based on the [Blog Starter Kit](https://vercel.com/templates/next.js/blog-starter-kit) and have been adding my own customizations.
