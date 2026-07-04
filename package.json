@@ -2,6 +2,7 @@
   "private": true,
   "scripts": {
     "dev": "next",
+    "prebuild": "node scripts/generate-seo-files.js",
     "build": "next build",
     "start": "next start",
     "typecheck": "tsc",

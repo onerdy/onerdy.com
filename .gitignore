@@ -34,6 +34,10 @@ yarn-error.log*
 .firebase
 firebase-debug.log
 
+# generated at build time (see scripts/generate-seo-files.js)
+/public/feed.xml
+/public/sitemap.xml
+
 # typescript
 *.tsbuildinfo
 next-env.d.ts
