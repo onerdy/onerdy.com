@@ -2,6 +2,8 @@ module.exports = {
     output: 'export',
     images: {
         unoptimized: true,
-        domains: ['source.unsplash.com'],
+        remotePatterns: [
+            { protocol: 'https', hostname: 'source.unsplash.com' },
+        ],
     }
 }

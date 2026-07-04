@@ -24,7 +24,7 @@ const MobileNav = () => {
       {/* Hamburger menu button */}
       <button
         type="button"
-        className="h-12 w-12 rounded pb-1 "
+        className="h-12 w-12 rounded-sm pb-1 "
         aria-label="Toggle Menu"
         onClick={onToggleNav}
       >
@@ -44,7 +44,7 @@ const MobileNav = () => {
 
       {/* Menu screen */}
       <div
-        className={`overflow-auto flex flex-col items-center fixed top-0 left-0 z-10 h-full w-full transform bg-gradient-to-b from-black via-slate-500 via-[8px] to-slate-500 duration-100 ease-in-out
+        className={`overflow-auto flex flex-col items-center fixed top-0 left-0 z-10 h-full w-full transform bg-linear-to-b from-black via-slate-500 via-[8px] to-slate-500 duration-100 ease-in-out
         ${
           navShow ? 'translate-x-0' : 'translate-x-full'
         }`}
@@ -53,7 +53,7 @@ const MobileNav = () => {
         <div className="w-full flex justify-end ">
           <button
             type="button"
-            className="mr-1 mt-1 h-16 w-16 rounded "
+            className="mr-1 mt-1 h-16 w-16 rounded-sm "
             aria-label="Toggle Menu"
             onClick={onToggleNav}
           >

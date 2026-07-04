@@ -10,7 +10,7 @@ const Layout = ({ children }: Props) => {
   return (
     <>
       <Meta />
-      <div className="min-h-screen overflow-auto font-comfortaa bg-[url('/img/bg.svg')] bg-[length:1920px_1200px] bg-fixed bg-gray-800 flex flex-col items-center">
+      <div className="min-h-screen overflow-auto font-comfortaa bg-[url('/img/bg.svg')] bg-size-[1920px_1200px] bg-fixed bg-gray-800 flex flex-col items-center">
         <Header/>
         <main><div className="pt-32 text-white" >{children}</div></main>
       </div>
