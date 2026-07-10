@@ -2,7 +2,7 @@
 title: 'Password Generator'
 excerpt: 'I created this password generator web application as an exercise to improve my web development skills and test some modern technologies...'
 coverImage: '/assets/projects/passgen/passgenlogo.png'
-date: '2024-03-10T22:00:00.000Z'
+date: '2026-07-10T22:00:00.000Z'
 author:
   name: Rodney Mort
   picture: '/assets/authors/rodney.webp'
@@ -13,6 +13,11 @@ ogImage:
 Project Link: [https://passgen.onerdy.com](https://passgen.onerdy.com)\
 Github Repo: [https://github.com/onerdy/passgen](https://github.com/onerdy/passgen)
 
+UPDATE (7-8-2026): As an exercise in using AI Agentic coding and expanding my knowledge and experience with different hosting and CI/CD pipeline options, I have used used VS Code and Claude Code to migrate this PassGen project to Google Firebase hosting. It was reengineered from a Blazor Server app (using C#, .NET, SignalR) running as a Docker container on a Linux VM instance connected to GHCR. It's now a plain HTML/CSS/JS static site — no framework, no build step. The password and passphrase logic ported over almost 1:1, with one real upgrade: it now uses crypto.getRandomValues instead of .NET's System.Random.
+
+With no server left to run, Firebase Hosting was a natural fit — free, static, and it deploys automatically on every push via GitHub Actions.
+
+Original Post (3-10-2024):
 I created this password generator web applictation as an exercise to improve my web development skills and test some modern technologies. This application was built using [Blazor 8](https://learn.microsoft.com/en-us/aspnet/core/blazor/?view=aspnetcore-8.0), Microsoft's full-stack web UI framework, in addition to the [MudBlazor Component Library](https://www.mudblazor.com). The purpose of this application is to create strong, randomly-generated passwords.
 
 This application is hosted on an Ubuntu Linux server running in a Docker container and using a Docker Compose configuration file. The source code is stored in a [GitHub repo](https://github.com/onerdy/passgen) with an automated workflow which triggers on every commit. The workflow builds a new version of the Docker application image and saves it to [GitHub's Container Registry](https://docs.github.com/en/packages/working-with-a-github-packages-registry/working-with-the-container-registry). The application is then relatively easy to deploy in the production environment with a few simple commands. This Linux server and Docker environment have no inbound connections allowed from the Internet. The site is being published using a [Cloudflare Tunnel](https://www.cloudflare.com/products/tunnel/) which takes the original HTTP site and automatically routes it through a proxied HTTPS connection with valid certs (very awesome and simple)!

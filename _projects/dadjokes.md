@@ -2,7 +2,7 @@
 title: 'Dad Joke Website'
 excerpt: 'I created this Dad Joke website as an exercise to improve my web development skills and test some modern technologies...'
 coverImage: '/assets/projects/dadjokes/dadjokelogo.png'
-date: '2024-02-19T22:00:00.000Z'
+date: '2026-07-08T22:00:00.000Z'
 author:
   name: Rodney Mort
   picture: '/assets/authors/rodney.webp'
@@ -13,7 +13,7 @@ ogImage:
 Project Link: [https://dadjokes.onerdy.com](https://dadjokes.onerdy.com)\
 Github Repo: [https://github.com/onerdy/dadjokes](https://github.com/onerdy/dadjokes)
 
-UPDATE (7/8/2026): Using VS Code and Claude Code, I moved Dad Jokes off .NET Blazor Server + MySQL + Docker hosted on a Linux VPS over to Firebase Hosting + Firestore. Since Firebase Hosting only serves static files, and this app is genuinely simple (fetch some jokes, show one, cycle through them), I rewrote the frontend in plain TypeScript instead of Blazor WebAssembly — no reason to ship a couple megabytes of .NET runtime just to display a joke and a button.
+UPDATE (7/8/2026): As an exercise in using AI Agentic coding and expanding my knowledge and experience with different hosting and CI/CD pipeline options, I have used VS Code and Claude Code to migrate Dad Jokes off .NET Blazor Server + MySQL + Docker hosted on a Linux VPS over to Firebase Hosting + Firestore. Since Firebase Hosting only serves static files, and this app is genuinely simple (fetch some jokes, show one, cycle through them), I rewrote the frontend in plain TypeScript instead of Blazor WebAssembly — no reason to ship a couple megabytes of .NET runtime just to display a joke and a button.
 
 The data migration was the fun part: my MySQL database sits behind a locked-down Cloudflare tunnel, and rather than opening it to the internet, I exported to CSV and cleaned it up (some broken quote-escaping, some old encoding mangling) before importing straight into Firestore.
 
