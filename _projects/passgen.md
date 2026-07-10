@@ -13,7 +13,7 @@ ogImage:
 Project Link: [https://passgen.onerdy.com](https://passgen.onerdy.com)\
 Github Repo: [https://github.com/onerdy/passgen](https://github.com/onerdy/passgen)
 
-UPDATE (7-8-2026): As an exercise in using AI Agentic coding and expanding my knowledge and experience with different hosting and CI/CD pipeline options, I have used used VS Code and Claude Code to migrate this PassGen project to Google Firebase hosting. It was reengineered from a Blazor Server app (using C#, .NET, SignalR) running as a Docker container on a Linux VM instance connected to GHCR. It's now a plain HTML/CSS/JS static site — no framework, no build step. The password and passphrase logic ported over almost 1:1, with one real upgrade: it now uses crypto.getRandomValues instead of .NET's System.Random.
+UPDATE (7-10-2026): As an exercise in using AI Agentic coding and expanding my knowledge and experience with different hosting and CI/CD pipeline options, I have used used VS Code and Claude Code to migrate this PassGen project to Google Firebase hosting. It was reengineered from a Blazor Server app (using C#, .NET, SignalR) running as a Docker container on a Linux VM instance connected to GHCR. It's now a plain HTML/CSS/JS static site — no framework, no build step. The password and passphrase logic ported over almost 1:1, with one real upgrade: it now uses crypto.getRandomValues instead of .NET's System.Random.
 
 With no server left to run, Firebase Hosting was a natural fit — free, static, and it deploys automatically on every push via GitHub Actions.
 
