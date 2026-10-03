@@ -1,16 +1,12 @@
-import DOMPurify from 'dompurify';
+import markdownStyles from './markdown-styles.module.css'
+import DOMPurify from 'isomorphic-dompurify'
 
 type Props = {
   content: string
 }
 
 function sanitizeHtml(html: string | null | undefined) {
-  return html
-    ? DOMPurify.sanitize(html, {
-        ALLOWED_TAGS: ['span', 'p'],
-        ALLOWED_ATTR: ['class'],
-      })
-    : '';
+  return html ? DOMPurify.sanitize(html) : ''
 }
 
 const PostBody = ({ content }: Props) => {
